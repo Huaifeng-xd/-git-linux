@@ -140,5 +140,12 @@ remote远程，将本地的仓库添加（add）到远程的仓库中去
 开发企业项目中在使用Git或者其他类似版本控制软件对项目版本进行管理时,多人合作的项目在开发时通常不
 会直接在主干 master上进行操作,而是重新开辟新的分支,在新的分支上进行开发调试等操作,当项目调试通过
 时才会将分支项目的代码合并到主干中,这是在实战中比较好的一种策略,特别是多人协同开发一个项目的情况下
-尤其明显。	
+尤其明显。
 
+​	
+
+# 可能出现的小问题
+
+##  1.git push -u origin mastererror: src refspec master does not match any
+error: failed to push some refs to 
+本地的版本可能没有提交到本地的git仓库中，使用add和commit一下
